@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/output.css">
+</head>
+
+<body id="body" class="overflow-x-hidden-hidden">
+    <main>
+        <!-- start header -->
+
+        <header class="h-16 md:h-32">
+            <div class="relative lg:fixed w-full h-16 bg-black hidden md:block px-5 xl:px-14 z-[999] md:z-[1000]">
+                <div class="bg-black h-full items-center justify-between hidden md:flex">
+                    <div>
+                        <ul class="flex gap-3">
+                            <li>
+                                <a href="#">
+                                    <svg class="fill-white w-5 transition-all duration-300 hover:fill-orange" width="24"
+                                        height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                        aria-hidden="true" focusable="false">
+                                        <path
+                                            d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg class="fill-white w-5 transition-all duration-300 hover:fill-orange" width="24"
+                                        height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                        aria-hidden="true" focusable="false">
+                                        <path
+                                            d="M12,4.622c2.403,0,2.688,0.009,3.637,0.052c0.877,0.04,1.354,0.187,1.671,0.31c0.42,0.163,0.72,0.358,1.035,0.673 c0.315,0.315,0.51,0.615,0.673,1.035c0.123,0.317,0.27,0.794,0.31,1.671c0.043,0.949,0.052,1.234,0.052,3.637 s-0.009,2.688-0.052,3.637c-0.04,0.877-0.187,1.354-0.31,1.671c-0.163,0.42-0.358,0.72-0.673,1.035 c-0.315,0.315-0.615,0.51-1.035,0.673c-0.317,0.123-0.794,0.27-1.671,0.31c-0.949,0.043-1.233,0.052-3.637,0.052 s-2.688-0.009-3.637-0.052c-0.877-0.04-1.354-0.187-1.671-0.31c-0.42-0.163-0.72-0.358-1.035-0.673 c-0.315-0.315-0.51-0.615-0.673-1.035c-0.123-0.317-0.27-0.794-0.31-1.671C4.631,14.688,4.622,14.403,4.622,12 s0.009-2.688,0.052-3.637c0.04-0.877,0.187-1.354,0.31-1.671c0.163-0.42,0.358-0.72,0.673-1.035 c0.315-0.315,0.615-0.51,1.035-0.673c0.317-0.123,0.794-0.27,1.671-0.31C9.312,4.631,9.597,4.622,12,4.622 M12,3 C9.556,3,9.249,3.01,8.289,3.054C7.331,3.098,6.677,3.25,6.105,3.472C5.513,3.702,5.011,4.01,4.511,4.511 c-0.5,0.5-0.808,1.002-1.038,1.594C3.25,6.677,3.098,7.331,3.054,8.289C3.01,9.249,3,9.556,3,12c0,2.444,0.01,2.751,0.054,3.711 c0.044,0.958,0.196,1.612,0.418,2.185c0.23,0.592,0.538,1.094,1.038,1.594c0.5,0.5,1.002,0.808,1.594,1.038 c0.572,0.222,1.227,0.375,2.185,0.418C9.249,20.99,9.556,21,12,21s2.751-0.01,3.711-0.054c0.958-0.044,1.612-0.196,2.185-0.418 c0.592-0.23,1.094-0.538,1.594-1.038c0.5-0.5,0.808-1.002,1.038-1.594c0.222-0.572,0.375-1.227,0.418-2.185 C20.99,14.751,21,14.444,21,12s-0.01-2.751-0.054-3.711c-0.044-0.958-0.196-1.612-0.418-2.185c-0.23-0.592-0.538-1.094-1.038-1.594 c-0.5-0.5-1.002-0.808-1.594-1.038c-0.572-0.222-1.227-0.375-2.185-0.418C14.751,3.01,14.444,3,12,3L12,3z M12,7.378 c-2.552,0-4.622,2.069-4.622,4.622S9.448,16.622,12,16.622s4.622-2.069,4.622-4.622S14.552,7.378,12,7.378z M12,15 c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S13.657,15,12,15z M16.804,6.116c-0.596,0-1.08,0.484-1.08,1.08 s0.484,1.08,1.08,1.08c0.596,0,1.08-0.484,1.08-1.08S17.401,6.116,16.804,6.116z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg class="fill-white w-5 transition-all duration-300 hover:fill-orange" width="24"
+                                        height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                        aria-hidden="true" focusable="false">
+                                        <path
+                                            d="M13.982 10.622 20.54 3h-1.554l-5.693 6.618L8.745 3H3.5l6.876 10.007L3.5 21h1.554l6.012-6.989L15.868 21h5.245l-7.131-10.378Zm-2.128 2.474-.697-.997-5.543-7.93H8l4.474 6.4.697.996 5.815 8.318h-2.387l-4.745-6.787Z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg class="fill-white w-5 transition-all duration-300 hover:fill-orange" width="24"
+                                        height="24" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                        aria-hidden="true" focusable="false">
+                                        <path
+                                            d="M16.708 0.027c1.745-0.027 3.48-0.011 5.213-0.027 0.105 2.041 0.839 4.12 2.333 5.563 1.491 1.479 3.6 2.156 5.652 2.385v5.369c-1.923-0.063-3.855-0.463-5.6-1.291-0.76-0.344-1.468-0.787-2.161-1.24-0.009 3.896 0.016 7.787-0.025 11.667-0.104 1.864-0.719 3.719-1.803 5.255-1.744 2.557-4.771 4.224-7.88 4.276-1.907 0.109-3.812-0.411-5.437-1.369-2.693-1.588-4.588-4.495-4.864-7.615-0.032-0.667-0.043-1.333-0.016-1.984 0.24-2.537 1.495-4.964 3.443-6.615 2.208-1.923 5.301-2.839 8.197-2.297 0.027 1.975-0.052 3.948-0.052 5.923-1.323-0.428-2.869-0.308-4.025 0.495-0.844 0.547-1.485 1.385-1.819 2.333-0.276 0.676-0.197 1.427-0.181 2.145 0.317 2.188 2.421 4.027 4.667 3.828 1.489-0.016 2.916-0.88 3.692-2.145 0.251-0.443 0.532-0.896 0.547-1.417 0.131-2.385 0.079-4.76 0.095-7.145 0.011-5.375-0.016-10.735 0.025-16.093z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex items-center gap-1">
+                        <span>
+                            <img class="w-7 cursor-pointer" src="img/icons//icons8-user-64.png" alt="">
+                        </span>
+                        <p class="text-white text-sm cursor-pointer">Account</p>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="relative lg:fixed top-0 w-full h-16 lg:top-16  bg-white shadow-sm px-5 xl:px-14 z-[999] md:z-[1000]">
+                <div class="h-full grid grid-cols-7 justify-between bg-white ">
+                    <div class="flex items-center col-start-1 col-end-3 lg:col-end-2 gap-4">
+                        <span id="menu-button" class="w-6 block lg:hidden cursor-pointer">
+                            <img class=" w-full" src="img/icons/menu_nav_icon.png" alt="">
+                        </span>
+                        <a class="hidden md:block" href="#">
+                            <img class="max-w-[150px]" src="img/header/logo.png" alt="">
+                        </a>
+                        <span class="flex md:hidden">
+                            <img class="w-5" src="img/icons/icons8-search-60.svg" alt="">
+                        </span>
+                    </div>
+                    <div class="col-start-3 col-end-6 h-full items-center justify-center">
+                        <nav class="h-full hidden lg:flex items-center justify-center">
+                            <ul class="flex items-center justify-center h-full gap-14">
+                                <li class="group relative w-full h-full flex items-center">
+                                    <a class="font-Poppins text-base flex items-center gap-1" href="#">Home
+                                        <span class="w-3">
+                                            <img class="w-2" src="img/icons/chevron-down-solid.svg" alt="">
+                                        </span>
+                                    </a>
+                                    <div
+                                        class="absolute bg-white top-24 -left-14 w-[230px] px-2 pt-12 pb-6 rounded-b-lg invisible opacity-0 group-hover:top-16 group-hover:visible group-hover:opacity-100 transition-all duration-300 shadow-md">
+                                        <ul class="opacity-70 ">
+                                            <li class="flex justify-center items-center mb-5">
+                                                <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                    href="#">Homepage Gearnix 01</a>
+                                            </li>
+                                            <li class="flex justify-center items-center mb-5">
+                                                <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                    href="#">Homepage Gearnix 02</a>
+                                            </li>
+                                            <li class="flex justify-center items-center mb-5">
+                                                <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                    href="#">Homepage Gearnix 03</a>
+                                            </li>
+                                            <li class="flex justify-center items-center mb-5">
+                                                <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                    href="#">Homepage Gearnix 04</a>
+                                            </li>
+                                            <li class="flex justify-center items-center mb-5">
+                                                <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                    href="#">Homepage Gearnix 05</a>
+                                            </li>
+                                            <li class="flex justify-center items-center mb-5">
+                                                <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                    href="#">Homepage Gearnix 06</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="group w-full h-full flex items-center">
+                                    <a class="font-PoppinsR text-base hover:font-Poppins transition-all duration-300 flex items-center gap-1"
+                                        href="#">Shop
+                                        <span class="w-3">
+                                            <img class="w-2" src="img/icons/chevron-down-solid.svg" alt="">
+                                        </span>
+                                    </a>
+                                    <div
+                                        class="absolute w-full h-[420px] left-0 top-[95px] shadow-lg invisible opacity-0 group-hover:top-[64px] group-hover:opacity-100 group-hover:visible  transition-all duration-300 bg-white">
+                                        <div class="container mx-auto w-full h-full bg-white">
+                                            <div
+                                                class="bg-white w-full h-full pl-8 xl:px-[75px] grid grid-cols-12 items-start">
+                                                <ul class="p-6 col-span-3 flex flex-col content-center gap-3 mt-20">
+                                                    <p class="font-Orbitron text-base font-semibold">Products Category
+                                                    </p>
+                                                    <li>
+                                                        <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                            href="#">Category Left Sidebar</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                            href="#">Category Righ Sidebar</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                            href="#">Category Top Sidebar</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                            href="#">Category Without Sidebar</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                            href="#">Category Full Width</a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="p-6 col-span-3 flex flex-col content-center gap-3 mt-20">
+                                                    <p class="font-Orbitron text-base font-semibold">Products Category
+                                                    </p>
+                                                    <li>
+                                                        <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                            href="#">Category Left Sidebar</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                            href="#">Category Righ Sidebar</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                            href="#">Category Top Sidebar</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                            href="#">Category Without Sidebar</a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="p-6 col-span-3 flex flex-col content-center gap-3 mt-20">
+                                                    <p class="font-Orbitron text-base font-semibold">Products Category
+                                                    </p>
+                                                    <li>
+                                                        <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                            href="#">Category Left Sidebar</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                            href="#">Category Righ Sidebar</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                            href="#">Category Top Sidebar</a>
+                                                    </li>
+                                                </ul>
+                                                <div class="col-span-3 h-[420px]">
+                                                    <img class="h-full" src="img/header/1.webp" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="group w-full h-full flex items-center">
+                                    <a class="font-PoppinsR text-base hover:font-Poppins transition-all duration-300 flex items-center gap-1"
+                                        href="#">Product
+                                        <span class="w-3">
+                                            <img class="w-2" src="img/icons/chevron-down-solid.svg" alt="">
+                                        </span>
+                                    </a>
+                                    <div
+                                        class="absolute w-full h-[420px] left-0 top-[95px] shadow-lg invisible opacity-0 group-hover:top-[64px] group-hover:opacity-100 group-hover:visible  transition-all duration-300 bg-white">
+                                        <div class="container mx-auto w-full h-full bg-white">
+                                            <div
+                                                class="bg-white w-full h-full pl-8 xl:px-[75px] grid grid-cols-12 items-start">
+                                                <ul class="p-6 col-span-3 flex flex-col content-center gap-3 mt-20">
+                                                    <p class="font-Orbitron text-base font-semibold">Products Details
+                                                    </p>
+                                                    <li>
+                                                        <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                            href="#">Product Thumbnail Left</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                            href="#">Product Thumbnail Top</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                            href="#">Product Thumbnail Bottom</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                            href="#">Product Thumbnail Right</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                            href="#">Category Full Width</a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="p-6 col-span-3 flex flex-col content-center gap-3 mt-20">
+                                                    <p class="font-Orbitron text-base font-semibold">Products Details
+                                                    </p>
+                                                    <li>
+                                                        <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                            href="#">Product Image Slider</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                            href="#">Product Tab Accordion</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                            href="#">Product Image Scroll Thumbnail Left</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                            href="#">Product Image Scroll Thumbnail Right</a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="p-6 col-span-3 flex flex-col content-center gap-3 mt-20">
+                                                    <p class="font-Orbitron text-base font-semibold">Products Details
+                                                    </p>
+                                                    <li>
+                                                        <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                            href="#">Product Show All Variants</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                            href="#">Product Video</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                            href="#">Product Sticky Add To Cart</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                            href="#">Product Deal Countdown</a>
+                                                    </li>
+                                                </ul>
+                                                <div class="p-6 col-span-3 flex flex-col content-center gap-3 mt-20">
+                                                    <p class="font-Orbitron text-base font-semibold">Featured Product
+                                                    </p>
+                                                    <div class="relative">
+                                                        <div class="w-[150px] cursor-pointer">
+                                                            <img class="absolute w-[150px]"
+                                                                src="img/header/3-3-600x600.webp" alt="">
+                                                            <img class="absolute hover:opacity-0 transition-all duration-500 w-[150px]"
+                                                                src="img/header/1-2-600x600.webp" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="group relative w-full h-full flex items-center">
+                                    <a class="font-PoppinsR text-base hover:font-Poppins transition-all duration-300 flex items-center gap-1"
+                                        href="#">Pages
+                                        <span class="w-3">
+                                            <img class="w-2" src="img/icons/chevron-down-solid.svg" alt="">
+                                        </span>
+                                    </a>
+                                    <div
+                                        class="absolute bg-white top-24 -left-14 w-[230px] px-2 pt-12 pb-6 rounded-b-lg invisible opacity-0 group-hover:top-16 group-hover:visible group-hover:opacity-100 transition-all duration-300 shadow-md">
+                                        <ul class="opacity-70">
+                                            <li class="flex pl-5 items-center mb-5">
+                                                <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                    href="#">Contact us</a>
+                                            </li>
+                                            <li class="flex pl-5 items-center mb-5">
+                                                <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                    href="#">About us</a>
+                                            </li>
+                                            <li class="flex pl-5 items-center mb-5">
+                                                <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                    href="#">FAQs Page</a>
+                                            </li>
+                                            <li class="flex pl-5 items-center mb-5">
+                                                <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                    href="#">Store Locations</a>
+                                            </li>
+                                            <li class="flex pl-5 items-center mb-5">
+                                                <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                    href="#">404 Page</a>
+                                            </li>
+                                            <li class="flex pl-5 items-center mb-5">
+                                                <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                    href="#">Store Direction</a>
+                                            </li>
+                                            <li class="flex pl-5 items-center mb-5">
+                                                <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                    href="#">Testimonial</a>
+                                            </li>
+                                            <li class="flex pl-5 items-center mb-5">
+                                                <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                    href="#">Wishlist</a>
+                                            </li>
+                                            <li class="flex pl-5 items-center mb-5">
+                                                <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                    href="#">My account</a>
+                                            </li>
+                                            <li class="flex pl-5 items-center mb-5">
+                                                <a class="font-PoppinsR text-sm hover:text-orange transition-all duration-300"
+                                                    href="#">Order Tracking</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="group w-full h-full flex items-center">
+                                    <a class="font-PoppinsR text-base hover:font-Poppins transition-all duration-300 flex items-center gap-1"
+                                        href="#">Blog
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <a class="flex md:hidden h-full justify-center items-center" href="#">
+                            <img class="max-w-[150px]" src="img/header/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-start-7 col-end-8 h-full flex items-center justify-end gap-5">
+                        <span class="w-5 hidden md:block cursor-pointer">
+                            <img class="w-5 hidden md:block" src="img/icons/icons8-search-60.svg" alt="">
+                        </span>
+                        <span class="w-5 hidden md:block relative cursor-pointer">
+                            <img class="w-5 hidden md:block" src="img/icons/211823_star_icon.svg" alt="">
+                            <span
+                                class="absolute bg-orange rounded-full w-4 h-4 text-center leading-4 text-xs text-white -top-1 left-3">0</span>
+                        </span>
+                        <span class="w-5 relative cursor-pointer">
+                            <img class="w-5" src="img/icons/shopping-cart.png" alt="">
+                            <span
+                                class="absolute bg-orange rounded-full w-4 h-4 text-center leading-4 text-xs text-white -top-1 left-3">0</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="offcanvas-menu"
+            class="block lg:hidden absolute top-0 -left-full w-full h-screen bg-transparent transition-all duration-500 z-[999]">
+            <div id="offcanvas-menu-bg" class="absolute top-16 md:top-32 w-full h-screen backdrop-blur-md">
+            </div>
+            <div class="absolute top-0 md:top-12 left-0 w-[80%] md:w-[310px] h-screen bg-white">
+                <div class="relative w-full h-screen py-8 px-5 flex flex-col justify-between">
+                    <div class="search relative w-full flex items-center mb-4">
+                        <input type="search" placeholder="WHAT ARE YOU LOOKING FOR ?"
+                            class="bg-in placeholder:text-[10px] w-full h-10 p-3 pl-12 rounded-3xl outline-none">
+                        <span>
+                            <img class="absolute top-1/2 left-3 w-4 -translate-y-1/2"
+                                src="img/icons/icons8-search-60.svg" alt="">
+                        </span>
+                        <span class="absolute top-1/2 right-0 -translate-y-1/2 w-10 h-10 bg-gradient1 rounded-3xl">
+                            <img class="w-5 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                                src="img/icons/icons8-right-arrow-50.png" alt="">
+                        </span>
+                    </div>
+                    <div class="menu-mobile py-6  overflow-x-hidden mb-4">
+                        <ul class="overflow-x-hidden">
+                            <li class="flex justify-between items-center w-full h-12">
+                                <a class="text-sm hover:text-orange transition-all duration-300" href="#">HOME</a>
+                                <i class="fa fa-chevron-right text-xs"></i>
+                            </li>
+                            <li class="flex justify-between items-center w-full h-12">
+                                <a class="text-sm hover:text-orange transition-all duration-300" href="#">SHOP</a>
+                                <i class="fa fa-chevron-right text-xs"></i>
+                            </li>
+                            <li class="flex justify-between items-center w-full h-12">
+                                <a class="text-sm hover:text-orange transition-all duration-300" href="#">PRODUCT</a>
+                                <i class="fa fa-chevron-right text-xs"></i>
+                            </li>
+                            <li class="flex justify-between items-center w-full h-12">
+                                <a class="text-sm hover:text-orange transition-all duration-300" href="#">PAGES</a>
+                                <i class="fa fa-chevron-right text-xs"></i>
+                            </li>
+                            <li class="flex justify-between items-center w-full h-12">
+                                <a class="text-sm hover:text-orange transition-all duration-300" href="#">BLOG</a>
+                                <i class="fa fa-chevron-right text-xs"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="social  flex flex-col content-center">
+                        <div class="text-base mb-2">
+                            <span class="font-Poppins">Call Us:</span> +0123-456-789
+                        </div>
+                        <div class="text-base mb-2">
+                            <span class="font-Poppins">Email:</span> example@domain.com
+                        </div>
+                        <div class="flex gap-3 items-center mt-6">
+                            <span
+                                class="w-6 h-6 rounded-full flex items-center justify-center bg-gradient1 p-4 hover:bg-[length:200px_100px] cursor-pointer">
+                                <i class="fa fa-facebook text-white"></i>
+                            </span>
+                            <span
+                                class="w-6 h-6 rounded-full flex items-center justify-center bg-gradient1 p-4 hover:bg-[length:200px_100px] cursor-pointer">
+                                <i class="fa fa-instagram text-white"></i>
+                            </span>
+                            <span
+                                class="w-6 h-6 rounded-full flex items-center justify-center bg-gradient1 p-4 hover:bg-[length:200px_100px] cursor-pointer">
+                                <i class="fa fa-telegram text-white"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end header -->
+
+        <div class="slider-container relative w-full h-[400px] md:h-[600px] lg:h-[800px] xl:h-[900px] overflow-hidden">
+            <div class="relative slide active slide-1 h-full">
+                <div class="absolute top-[35%] md:top-[45%] left-6 xl:left-20 flex flex-wrap justify-start">
+                    <h3
+                        class="text-white mb-2 xl:mb-4 font-Orbitron text-lg md:text-2xl lg:text-3xl xl:text-5xl w-full">
+                        Elevate Your
+                        Gaming</h3>
+                    <h2 class="text-white font-Orbitron text-lg md:text-2xl lg:text-3xl xl:text-5xl w-full">Experience
+                    </h2>
+                    <div class="text-slate-50 opacity-60 my-3 md:my-7 w-3/4 md:w-full">
+                        level immersion and performance with our premium gaming gear.
+                    </div>
+                    <div
+                        class="w-40 h-12 rounded-md bg-gradient1 bg-[length:160px_120px] hover:bg-[length:120px_100px] flex justify-center items-center text-white transition-all duration-300 cursor-pointer">
+                        <a href="#">
+                            <span>Purchase Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="relative slide slide-2 h-full">
+                <div class="absolute top-[35%] md:top-[45%] left-1/2 -translate-x-1/2 flex flex-wrap justify-center">
+                    <h3
+                        class="text-white mb-2 xl:mb-4 font-Orbitron text-lg md:text-2xl lg:text-3xl xl:text-5xl text-center w-full">
+                        Unleash Your Gaming
+                    </h3>
+                    <h2 class="text-white font-Orbitron text-lg md:text-2xl lg:text-3xl xl:text-5xl text-center w-full">
+                        Prowess
+                    </h2>
+                    <div class="text-slate-50 opacity-60 my-3 md:my-7 md:w-full text-center w-full">
+                        Dominate the Digital Arena with Our Cutting-Edge Gaming Gear.
+                    </div>
+                    <div
+                        class="w-40 h-12 rounded-md bg-gradient1 bg-[length:160px_120px] hover:bg-[length:120px_100px] flex justify-center items-center text-white transition-all duration-300 cursor-pointer">
+                        <a href="#">
+                            <span>Purchase Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="relative slide slide-3 h-full">
+                <div class="absolute top-[35%] md:top-[45%] right-6 xl:right-20 flex flex-wrap justify-end">
+                    <h3
+                        class="text-white mb-2 xl:mb-4 font-Orbitron text-lg md:text-2xl lg:text-3xl xl:text-5xl w-full text-end">
+                        Conquer the Digital
+                    </h3>
+                    <h2 class="text-white font-Orbitron text-lg md:text-2xl lg:text-3xl xl:text-5xl w-full text-end">
+                        Battlefield</h2>
+                    <div class="text-slate-50 opacity-60 my-3 md:my-7 w-3/4 md:w-full text-end">
+                        Dominate Every Match with Our Cutting-Edge Gaming Gear and Strategies.
+                    </div>
+                    <div
+                        class="w-40 h-12 rounded-md bg-gradient1 bg-[length:160px_120px] hover:bg-[length:120px_100px] flex justify-center items-center text-white transition-all duration-300 cursor-pointer">
+                        <a href="#">
+                            <span>Purchase Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="dots-container absolute bottom-[15px] w-full text-center hidden md:block">
+                <span
+                    class="dot active h-[15px] w-[15px] my-0 mx-[5px] bg-slate-300 rounded-full inline-block cursor-pointer"
+                    onclick="currentSlide(0)"></span>
+                <span class="dot h-[15px] w-[15px] my-0 mx-[5px] bg-slate-300 rounded-full inline-block cursor-pointer"
+                    onclick="currentSlide(1)"></span>
+                <span class="dot h-[15px] w-[15px] my-0 mx-[5px] bg-slate-300 rounded-full inline-block cursor-pointer"
+                    onclick="currentSlide(2)"></span>
+            </div>
+        </div>
+
+        <!-- end bg-header -->
+
+
+        <div class="w-full flex flex-wrap overflow-hidden">
+            <div class="relative w-full md:w-1/2 lg:w-1/4 overflow-hidden">
+                <div class="w-full min-h-54 overflow-hidden">
+                    <img class="w-full hover:scale-110 transition-all duration-300 cursor-pointer"
+                        src="img/shop-1/img-4-1.webp" alt="">
+                    <div class="absolute bottom-10 sm:bottom-6 lg:bottom-5 left-2 px-12 lg:px-8">
+                        <div class="text-2xl lg:text-lg xl:text-xl font-Orbitron mb-6 cursor-pointer">Keyboards</div>
+                        <div class="text-sm lg:text-base xl:text-lg font-PoppinsR cursor-pointer">Shop Now</div>
+                    </div>
+                </div>
+            </div>
+            <div class="relative w-full md:w-1/2 lg:w-1/4  overflow-hidden">
+                <div class="w-full min-h-54  overflow-hidden">
+                    <img class="w-full hover:scale-110 transition-all duration-300 cursor-pointer"
+                        src="img/shop-1/img-4-2.webp" alt="">
+                    <div class="absolute bottom-10 sm:bottom-6 lg:bottom-5 left-2 px-12 lg:px-8">
+                        <div class="text-2xl lg:text-lg xl:text-xl font-Orbitron mb-6 cursor-pointer">Gaming Mouse</div>
+                        <div class="text-sm lg:text-base xl:text-lg font-PoppinsR cursor-pointer">Shop Now</div>
+                    </div>
+                </div>
+            </div>
+            <div class="relative w-full md:w-1/2 lg:w-1/4  overflow-hidden">
+                <div class="w-full min-h-54 overflow-hidden">
+                    <img class="w-full hover:scale-110 transition-all duration-300 cursor-pointer"
+                        src="img/shop-1/img-4-3.webp" alt="">
+                    <div class="absolute bottom-10 sm:bottom-6 lg:bottom-5 left-2 px-12 lg:px-8">
+                        <div class="text-2xl lg:text-lg xl:text-xl font-Orbitron mb-6 cursor-pointer">Headphones</div>
+                        <div class="text-sm lg:text-base xl:text-lg font-PoppinsR cursor-pointer">Shop Now</div>
+                    </div>
+                </div>
+            </div>
+            <div class="relative w-full md:w-1/2 lg:w-1/4 overflow-hidden">
+                <div class="w-full min-h-54  overflow-hidden">
+                    <img class="w-full hover:scale-110 transition-all duration-300 cursor-pointer"
+                        src="img/shop-1/img-4-4.webp" alt="">
+                    <div class="absolute bottom-10 sm:bottom-6 lg:bottom-5 left-2 px-12 lg:px-8">
+                        <div class="text-2xl lg:text-lg xl:text-xl font-Orbitron mb-6 cursor-pointer">Gaming Controllers
+                        </div>
+                        <div class="text-sm lg:text-base xl:text-lg font-PoppinsR cursor-pointer">Shop Now</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end category -->
+
+
+        <div class="flex flex-wrap xl:px-14 px-6 py-32">
+            <div class="w-full md:w-1/2 xl:w-1/4 flex mb-10 xl:mb-0">
+                <div
+                    class="flex md:flex-wrap items-center md:justify-center gap-4 md:gap-7 lg:gap-0 lg:justify-start w-full">
+                    <div
+                        class="flex w-1/5 md:w-full lg:w-1/5 xl:w-2/6 justify-start md:justify-center lg:justify-start">
+                        <div
+                            class="w-[90px] h-[90px] lg:w-[70px] lg:h-[70px] border-2 border-orange rounded-full flex justify-center items-center">
+                            <img class="w-[50px] lg:w-[40px]" src="img/icons/p-4-1.png" alt="">
+                        </div>
+                    </div>
+                    <div
+                        class="flex flex-wrap w-4/5 md:w-full lg:w-4/5 xl:w-4/6 justify-start md:justify-center lg:justify-start">
+                        <h3 class="font-Poppins text-xl mb-2 md:mb-4 w-full md:text-center lg:text-start">Free Shipping
+                        </h3>
+                        <p class="font-PoppinsR text-sm leading-7 w-full md:text-center lg:text-start">Free Shipping to
+                            Make Your
+                            Shopping Experience Seamless.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 xl:w-1/4 flex mb-10 xl:mb-0">
+                <div
+                    class="flex md:flex-wrap items-center md:justify-center gap-4 md:gap-7 lg:gap-0 lg:justify-start w-full">
+                    <div
+                        class="flex w-1/5 md:w-full lg:w-1/5 xl:w-2/6 justify-start md:justify-center lg:justify-start">
+                        <div
+                            class="w-[90px] h-[90px] lg:w-[70px] lg:h-[70px] border-2 border-orange rounded-full flex justify-center items-center">
+                            <img class="w-[50px] lg:w-[40px]" src="img/icons/p-4-2.png" alt="">
+                        </div>
+                    </div>
+                    <div
+                        class="flex flex-wrap w-4/5 md:w-full lg:w-4/5 xl:w-4/6 justify-start md:justify-center lg:justify-start">
+                        <h3 class="font-Poppins text-xl mb-2 md:mb-4 w-full md:text-center lg:text-start">Return Policy
+                        </h3>
+                        <p class="font-PoppinsR text-sm leading-7 w-full md:text-center lg:text-start">Flexible Returns
+                            to Ensure a Positive Shopping Experience.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 xl:w-1/4 flex mb-10 xl:mb-0">
+                <div
+                    class="flex md:flex-wrap items-center md:justify-center gap-4 md:gap-7 lg:gap-0 lg:justify-start w-full">
+                    <div
+                        class="flex w-1/5 md:w-full lg:w-1/5 xl:w-2/6 justify-start md:justify-center lg:justify-start">
+                        <div
+                            class="w-[90px] h-[90px] lg:w-[70px] lg:h-[70px] border-2 border-orange rounded-full flex justify-center items-center">
+                            <img class="w-[50px] lg:w-[40px]" src="img/icons/p-4-3.png" alt="">
+                        </div>
+                    </div>
+                    <div
+                        class="flex flex-wrap w-4/5 md:w-full lg:w-4/5 xl:w-4/6 justify-start md:justify-center lg:justify-start">
+                        <h3 class="font-Poppins text-xl mb-2 md:mb-4 w-full md:text-center lg:text-start">Save Money
+                        </h3>
+                        <p class="font-PoppinsR text-sm leading-7 w-full md:text-center lg:text-start">Shop Smarter and
+                            Save Big with Our Money-Saving Solutions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 xl:w-1/4 flex mb-10 xl:mb-0">
+                <div
+                    class="flex md:flex-wrap items-center md:justify-center gap-4 md:gap-7 lg:gap-0 lg:justify-start w-full">
+                    <div
+                        class="flex w-1/5 md:w-full lg:w-1/5 xl:w-2/6 justify-start md:justify-center lg:justify-start">
+                        <div
+                            class="w-[90px] h-[90px] lg:w-[70px] lg:h-[70px] border-2 border-orange rounded-full flex justify-center items-center">
+                            <img class="w-[50px] lg:w-[40px]" src="img/icons/p-4-4.png" alt="">
+                        </div>
+                    </div>
+                    <div
+                        class="flex flex-wrap w-4/5 md:w-full lg:w-4/5 xl:w-4/6 justify-start md:justify-center lg:justify-start">
+                        <h3 class="font-Poppins text-xl mb-2 md:mb-4 w-full md:text-center lg:text-start">Support 24/7
+                        </h3>
+                        <p class="font-PoppinsR text-sm leading-7 w-full md:text-center lg:text-start">Unparalleled
+                            Support, Tailored to Your Needs 24 Hours a Day.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end info -->
+
+        <div class="px-5 xl:px-14 rounded-md flex flex-wrap lg:flex-nowrap gap-3 lg:gap-6">
+            <div class="w-full lg:w-1/2 rounded-md overflow-hidden">
+                <img class="w-full rounded-md" src="img/buy/img-4-5.webp" alt="">
+            </div>
+            <div class="flex flex-wrap w-full lg:w-1/2 gap-3">
+                <div class="w-full rounded-md">
+                    <img class="w-full rounded-md" src="img/buy/img-4-6.webp" alt="">
+                </div>
+                <div class="flex flex-wrap md:flex-nowrap w-full gap-3">
+                    <div class="w-full md:w-1/2 rounded-md">
+                        <img class="w-full rounded-md" src="img/buy/img-4-7.webp" alt="">
+                    </div>
+                    <div class="w-full md:w-1/2 rounded-md">
+                        <img class="w-full rounded-md" src="img/buy/img-4-8.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end buy -->
+
+        <div class="py-36 xl:px-14 px-5">
+            <div class="w-full mb-14">
+                <h2 class="text-center font-Orbitron text-2xl md:text-4xl font-extrabold mb-5">Top Rated Product’s</h2>
+                <p class="text-center text-sm">Master Your Battleground Elevate Your Game with Our Elite-Reviewed Gear
+                </p>
+            </div>
+            <div class="grid grid-cols-12 gap-5">
+                <div
+                    class="xl:col-span-3 col-span-12 sm:col-span-6 lg:col-span-4 h-[400px] border-2 border-black border-opacity-10 rounded-md">
+                    <div class="w-full h-1/2 flex justify-center">
+                        <img class="w-[200px]" src="img/product/1-1-600x600.webp" alt="">
+                    </div>
+                    <div class="w-full h-1/2 flex flex-wrap gap-4 justify-center content-center">
+                        <h4 class="w-full text-center text-lg font-Poppins">Green Broccoli</h4>
+                        <div class="w-full flex justify-center items-center">
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span class="text-xs text-slate-400">(0)</span>
+                        </div>
+                        <div class="w-full flex gap-2">
+                            <span class="w-full text-end text-xl font-Poppins">$8.00</span>
+                            <span class="w-full line-through decoration-orange text-slate-400 opacity-65">$9.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="xl:col-span-3 col-span-12 sm:col-span-6 lg:col-span-4 h-[400px] border-2 border-black border-opacity-10 rounded-md">
+                    <div class="w-full h-1/2 flex justify-center">
+                        <img class="w-[200px]" src="img/product/1-2-768x768.webp" alt="">
+                    </div>
+                    <div class="w-full h-1/2 flex flex-wrap gap-4 justify-center content-center">
+                        <h4 class="w-full text-center text-lg font-Poppins">Green Broccoli</h4>
+                        <div class="w-full flex justify-center items-center">
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span class="text-xs text-slate-400">(0)</span>
+                        </div>
+                        <div class="w-full flex gap-2">
+                            <span class="w-full text-end text-xl font-Poppins">$14.00</span>
+                            <span class="w-full line-through decoration-orange text-slate-400 opacity-65">$16.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="xl:col-span-3 col-span-12 sm:col-span-6 lg:col-span-4 h-[400px] border-2 border-black border-opacity-10 rounded-md">
+                    <div class="w-full h-1/2 flex justify-center">
+                        <img class="w-[200px]" src="img/product/2-1-600x600.webp" alt="">
+                    </div>
+                    <div class="w-full h-1/2 flex flex-wrap gap-4 justify-center content-center">
+                        <h4 class="w-full text-center text-lg font-Poppins">Gaming Logi G Pro X</h4>
+                        <div class="w-full flex justify-center items-center">
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span class="text-xs text-slate-400">(0)</span>
+                        </div>
+                        <div class="w-full flex gap-2">
+                            <span class="w-full text-end text-xl font-Poppins">$30.00</span>
+                            <span class="w-full line-through decoration-orange text-slate-400 opacity-65">$38.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="xl:col-span-3 col-span-12 sm:col-span-6 lg:col-span-4 h-[400px] border-2 border-black border-opacity-10 rounded-md">
+                    <div class="w-full h-1/2 flex justify-center">
+                        <img class="w-[200px]" src="img/product/2-2-768x768.webp" alt="">
+                    </div>
+                    <div class="w-full h-1/2 flex flex-wrap gap-4 justify-center content-center">
+                        <h4 class="w-full text-center text-lg font-Poppins">Immersion Xtreme</h4>
+                        <div class="w-full flex justify-center items-center">
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span class="text-xs text-slate-400">(0)</span>
+                        </div>
+                        <div class="w-full flex gap-2">
+                            <span class="w-full text-end text-xl font-Poppins">$41.00</span>
+                            <span class="w-full line-through decoration-orange text-slate-400 opacity-65">$47.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="xl:col-span-3 col-span-12 sm:col-span-6 lg:col-span-4 h-[400px] border-2 border-black border-opacity-10 rounded-md">
+                    <div class="w-full h-1/2 flex justify-center">
+                        <img class="w-[200px]" src="img/product/3-1-768x768.webp" alt="">
+                    </div>
+                    <div class="w-full h-1/2 flex flex-wrap gap-4 justify-center content-center">
+                        <h4 class="w-full text-center text-lg font-Poppins">Vortex Gamepad</h4>
+                        <div class="w-full flex justify-center items-center">
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span class="text-xs text-slate-400">(0)</span>
+                        </div>
+                        <div class="w-full flex gap-2">
+                            <span class="w-full text-end text-xl font-Poppins">$12.00</span>
+                            <span class="w-full line-through decoration-orange text-slate-400 opacity-65">$16.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="xl:col-span-3 col-span-12 sm:col-span-6 lg:col-span-4 h-[400px] border-2 border-black border-opacity-10 rounded-md">
+                    <div class="w-full h-1/2 flex justify-center">
+                        <img class="w-[200px]" src="img/product/3-2-600x600.webp" alt="">
+                    </div>
+                    <div class="w-full h-1/2 flex flex-wrap gap-4 justify-center content-center">
+                        <h4 class="w-full text-center text-lg font-Poppins">Green Broccoli</h4>
+                        <div class="w-full flex justify-center items-center">
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span><i class="fa fa-star text-slate-400"></i></span>
+                            <span class="text-xs text-slate-400">(0)</span>
+                        </div>
+                        <div class="w-full flex gap-2">
+                            <span class="w-full text-end text-xl font-Poppins">$8.00</span>
+                            <span class="w-full line-through decoration-orange text-slate-400 opacity-65">$9.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end product -->
+
+        <div
+            class="bg-2 w-full lg:min-h-[450px] md:min-h-[1100px] min-h-[850px]  bg-cover bg-center flex flex-wrap lg:items-center">
+            <div class="w-full lg:w-1/2">
+                <img class="w-full" src="img/bg-3/img-4-13.webp" alt="">
+            </div>
+            <div class="w-full lg:w-1/2">
+                <div class="flex flex-wrap px-6">
+                    <h3
+                        class="text-white font-Orbitron font-extrabold text-3xl text-center leading-[50px] mb-4 md:mb-8 w-full lg:text-end">
+                        Eclipse
+                        Nexus Renegade Tactical
+                        Peripherals</h3>
+                    <p class="text-white text-base text-center w-full mb-6 lg:text-end">The Unparalleled Apex Esports
+                        Gaming Command
+                        Center
+                        Engineered for
+                        Total Dominance in the Most
+                        Demanding Global Tournaments and Competitions.</p>
+                    <div class="flex justify-center w-full gap-3 mt-4 lg:justify-end">
+                        <span class="text-orange text-5xl font-Poppins flex justify-end">$85.99</span>
+                        <a class="flex items-center" href="#">
+                            <span
+                                class="text-white text-base flex justify-start items-center bg-gradient1 px-8 py-4 rounded-lg cursor-pointer">Shop
+                                Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end  bg-2 -->
+
+
+
+        <div class="about py-36 px-5">
+            <div class="flex flex-wrap justify-center">
+                <h3 class="w-full text-center font-Orbitron text-2xl md:text-4xl font-extrabold mb-5">What Customers Say
+                    About</h3>
+                <h4 class="w-full text-center font-Orbitron text-2xl md:text-4xl font-extrabold text-orange mb-5">Our
+                    Products</h4>
+                <p class="w-full text-center font-PoppinsR text-sm mb-5">Solid endorsements from the world's leading
+                    esports experts.</p>
+            </div>
+            <div class="my-10 min-h-[450px] lg:h-[450px]">
+                <div class="w-full flex flex-wrap gap-[2%]">
+                    <div
+                        class="flex flex-wrap w-full lg:w-[49%] min-h-[450px] lg:h-[450px] rounded-xl md:rounded-l-xl md:rounded-r-xl bg-bgAbout mb-5">
+                        <div
+                            class="w-full md:w-2/5 lg:w-1/2 sm:rounded-t-xl md:rounded-l-xl lg:rounded-l-xl lg:rounded-r-none">
+                            <img class="min-h-[450px] rounded-t-xl md:rounded-l-xl md:rounded-r-none lg:rounded-l-xl"
+                                src="img/What Customers Say About/img-1-13-768x876.jpg" alt="">
+                        </div>
+                        <div
+                            class="w-full md:w-3/5 lg:w-1/2 px-8 py-10 flex flex-wrap rounded-b-xl md:rounded-l-none  md:rounded-r-xl ">
+                            <div class="mb-8 w-full">
+                                <img src="img/What Customers Say About/testimonial-icon2.svg" alt="">
+                            </div>
+                            <h3 class="font-Orbitron font-bold text-lg mb-2 w-full">Earl S. West</h3>
+                            <p class="text-sm font-PoppinsR mb-5 w-full">From California</p>
+                            <div class="font-PoppinsR text-base md:text-sm w-full">I was skeptical at first, but the
+                                gaming mouse controller has become an indispensable
+                                part of my gaming setup. The customizable buttons and smooth, tactile feel give me an
+                                edge that my friends just can't match.</div>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap w-full lg:w-[49%] min-h-[450px] lg:h-[450px] rounded-xl bg-bgAbout mb-5">
+                        <div
+                            class="w-full md:w-2/5 lg:w-1/2 sm:rounded-t-xl md:rounded-l-xl lg:rounded-l-xl lg:rounded-r-none">
+                            <img class="min-h-[450px] rounded-t-xl md:rounded-l-xl md:rounded-r-none lg:rounded-l-xl"
+                                src="img/What Customers Say About/img-1-11-768x876.jpg" alt="">
+                        </div>
+                        <div
+                            class="w-full md:w-3/5 lg:w-1/2 px-8 py-10 flex flex-wrap rounded-b-xl md:rounded-l-none  md:rounded-r-xl">
+                            <div class="mb-8 w-full">
+                                <img src="img/What Customers Say About/testimonial-icon2.svg" alt="">
+                            </div>
+                            <h3 class="font-Orbitron font-bold text-lg mb-2 w-full">Sally H. McDuffie</h3>
+                            <p class="text-sm font-PoppinsR mb-5 w-full">From California</p>
+                            <div class="font-PoppinsR text-base md:text-sm w-full">The controllers has completely
+                                transformed my gaming experience. The precision and responsiveness are out of this world
+                                - I've noticed a dramatic improvement in my aim and overall performance. Absolutely
+                                worth every penny!</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end about -->
+
+        <div class="py-10 w-full px-4">
+            <div class="w-full">
+                <h3 class="font-Orbitron text-center md:text-5xl text-2xl font-semibold mb-5">Latest News</h3>
+                <p class="text-center font-PoppinsR md:text-base text-sm">The Hottest Gaming Innovations and Exclusive
+                    First Looks</p>
+            </div>
+            <div class="flex flex-wrap my-16 lg:gap-[2%] md:gap-[2%]">
+                <div class="w-[97%] md:w-[48%] lg:w-[32%]">
+                    <div class="rounded-md">
+                        <img class="w-full rounded-md" src="img/Latest News/blog7-768x475.jpg" alt="">
+                    </div>
+                    <div class="w-full flex flex-wrap py-6 px-6 md:px-4">
+                        <p class="text-center font-PoppinsR text-sm text-gray-400 w-full mb-4">BY ADMIN</p>
+                        <a class="text-center font-Orbitron text-lg md:text-xl font-bold line-clamp-2 mb-4" href="#">The
+                            Emerging
+                            Trend of Sleek and Stylish Gaming Gear Designs</a>
+                        <div class="text-sm font-PoppinsR text-gray-400 text-center mb-4">Elevate Your Gaming Experience
+                            Next level immersion and performance with our premium gaming gear. Purchase</div>
+                        <a class="text-center font-Poppins w-full mb-4" href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="w-[97%] md:w-[48%] lg:w-[32%] hidden md:block">
+                    <div class="rounded-md">
+                        <img class="w-full rounded-md" src="img/Latest News/blog8-768x475.jpg" alt="">
+                    </div>
+                    <div class="w-full flex flex-wrap py-6 px-6 md:px-4">
+                        <p class="text-center font-PoppinsR text-sm text-gray-400 w-full mb-4">BY ADMIN</p>
+                        <a class="text-center font-Orbitron text-lg md:text-xl font-bold line-clamp-2 mb-4" href="#">The
+                            Emerging
+                            Trend of Sleek and Stylish Gaming Gear Designs</a>
+                        <div class="text-sm font-PoppinsR text-gray-400 text-center mb-4">Elevate Your Gaming Experience
+                            Next level immersion and performance with our premium gaming gear. Purchase</div>
+                        <a class="text-center font-Poppins w-full mb-4" href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="w-[97%] md:w-[48%] lg:w-[32%] mt-5 lg:mt-0 hidden lg:block">
+                    <div class="rounded-md">
+                        <img class="w-full rounded-md" src="img/Latest News/blog9-768x475.jpg" alt="">
+                    </div>
+                    <div class="w-full flex flex-wrap py-6 px-6 md:px-4">
+                        <p class="text-center font-PoppinsR text-sm text-gray-400 w-full mb-4">BY ADMIN</p>
+                        <a class="text-center font-Orbitron text-lg md:text-xl font-bold line-clamp-2 mb-4" href="#">The
+                            Emerging
+                            Trend of Sleek and Stylish Gaming Gear Designs</a>
+                        <div class="text-sm font-PoppinsR text-gray-400 text-center mb-4">Elevate Your Gaming Experience
+                            Next level immersion and performance with our premium gaming gear. Purchase</div>
+                        <a class="text-center font-Poppins w-full mb-4" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end news -->
+
+        <footer class="bg-bgAbout pt-20 px-5">
+            <div class="flex flex-wrap">
+                <div class="lg:w-1/4 w-full mb-8 lg:mb-0">
+                    <img class="w-[150px]" src="img/header/logo.png" alt="">
+                </div>
+                <div class="lg:w-3/4 w-full flex items-center lg:flex-nowrap flex-wrap">
+                    <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+                        <h4 class="text-xl font-Poppins lg:text-center text-start">Get exclusive our offers and updates
+                        </h4>
+                    </div>
+                    <div class="lg:w-1/2 w-full relative">
+                        <input class="outline-none px-4 py-6 w-full rounded-md" type="email"
+                            placeholder="Enter Your Email">
+                        <a class="absolute bg-orange top-[8px] right-0 px-6 py-4 rounded-md text-white"
+                            href="#">Submit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-wrap my-28">
+                <div class="flex flex-wrap w-full sm:w-1/2 lg:w-1/4">
+                    <h5 class="w-full font-PoppinsR text-base font-bold mb-5">Contact Us</h5>
+                    <a class="w-full font-PoppinsR text-sm mb-5" href="#">2357 Gordon Street, CA</a>
+                    <a class="w-full font-PoppinsR text-sm mb-5" href="#">+ (909) - 478-2742</a>
+                    <a class="w-full font-PoppinsR text-sm mb-5" href="#">GearnixStore@Vinova.com</a>
+                    <a class="w-full font-PoppinsR text-sm mb-5" href="#">@VinovaGear</a>
+                </div>
+                <div class="flex flex-wrap w-full sm:w-1/2 lg:w-1/4">
+                    <h5 class="w-full font-PoppinsR text-base font-bold mb-5">Track My Order</h5>
+                    <a class="w-full font-PoppinsR text-sm mb-5" href="#">Cancel My Order</a>
+                    <a class="w-full font-PoppinsR text-sm mb-5" href="#">Return My Order</a>
+                    <a class="w-full font-PoppinsR text-sm mb-5" href="#">Search</a>
+                </div>
+                <div class="flex flex-wrap w-full sm:w-1/2 lg:w-1/4 mt-8 lg:mt-0">
+                    <h5 class="w-full font-PoppinsR text-base font-bold mb-5">Our Policies</h5>
+                    <a class="w-full font-PoppinsR text-sm mb-5" href="#">Shipping & Delivery</a>
+                    <a class="w-full font-PoppinsR text-sm mb-5" href="#">Returns & Cancellations</a>
+                    <a class="w-full font-PoppinsR text-sm mb-5" href="#">Terms & Conditions</a>
+                    <a class="w-full font-PoppinsR text-sm mb-5" href="#">Privacy Policy</a>
+                </div>
+                <div class="flex flex-wrap w-full sm:w-1/2 lg:w-1/4 mt-8 lg:mt-0">
+                    <h5 class="w-full font-PoppinsR text-base font-bold mb-5">My Account</h5>
+                    <a class="w-full font-PoppinsR text-sm mb-5" href="#">Help and advice</a>
+                    <a class="w-full font-PoppinsR text-sm mb-5" href="#">Shipping & Returns</a>
+                    <a class="w-full font-PoppinsR text-sm mb-5" href="#">Terms and conditions</a>
+                    <a class="w-full font-PoppinsR text-sm mb-5" href="#">Refund Policy</a>
+                </div>
+            </div>
+            <div class="line-footer w-full h-[1px] bg-gray-500"></div>
+            <div class="flex flex-wrap gap-8 py-6">
+                <div class="flex w-full text-2xl">
+                    Coded by Alireza hasanpour
+                </div>
+                <div class="social-footer w-full flex flex-wrap gap-4">
+                    <div class="w-full flex items-center">
+                        <span class="mr-2">
+                            <i class="fa fa-instagram text-2xl"></i>
+                        </span>
+                        <a class="text-lg hover:text-orange transition-all duration-300"
+                            href="https://www.instagram.com/alireza_hasanpour_frontend">@alireza_hasanpour_frontend</a>
+                    </div>
+                    <div class="w-full flex items-center">
+                        <span class="mr-2">
+                            <i class="fa fa-linkedin text-2xl"></i>
+                        </span>
+                        <a class="text-lg hover:text-orange transition-all duration-300"
+                            href="https://www.linkedin.com/in/alireza-hasanpour-frontend/">linkedin.com/in/alireza-hasanpour-frontend</a>
+                    </div>
+                    <div class="w-full flex items-center">
+                        <span class="mr-2">
+                            <i class="fa fa-github text-2xl"></i>
+                        </span>
+                        <a class="text-lg hover:text-orange transition-all duration-300"
+                            href="https://github.com/alirezafrontend/">github.com/alirezafrontend</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- end footer -->
+
+
+        <div id="footer-me"
+            class="hidden lg:flex">
+            <div>
+                <div>
+                    <a href="https://www.instagram.com/alireza_hasanpour_frontend">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://github.com/alirezafrontend/">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/alireza-hasanpour-frontend/">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="img/me.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <script src="../src/js/main.js"></script>
+    <!--  -->
+</body>
+
+</html>
