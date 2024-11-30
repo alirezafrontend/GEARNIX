@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins-SemiBold.woff) format("woff");
+}
+
+@font-face {
+  font-family: PoppinsR;
+  src: url(../fonts/Poppins-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: Orbitron;
+  src: url(../fonts/Orbitron-Regular.woff) format("woff");
+}
+
+@layer components {
+  .bg-2 {
+    background-image: url(../img/bg-3/img-4-14-scaled.webp);
+  }
+}

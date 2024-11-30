@@ -1,0 +1,115 @@
+.slide-1 {
+  background-image: url("../img/bg-header/slide1.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%, 85%;
+  height: auto;
+}
+
+.slide-2 {
+  background-image: url("../img/bg-header/slide4-2-scaled.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%, 85%;
+  height: auto;
+}
+
+.slide-3 {
+  background-image: url("../img/bg-header/slide4-3-scaled.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%, 85%;
+  height: auto;
+}
+
+.slide {
+  width: 100%;
+  height: 100vh; /* Adjust as needed */
+  background-size: cover;
+  background-position: center;
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+.dot.active {
+  background-color: #d5530d;
+}
+
+#footer-me {
+  width: 220px;
+  height: 175px;
+  position: fixed;
+  justify-content: flex-end;
+  align-items: center;
+  bottom: 6%;
+  right: 3%;
+  border-radius: 70px;
+  z-index: 50;
+
+  > div:nth-of-type(1) {
+    width: 50px;
+    height: 100%;
+    position: relative;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s;
+
+    > * {
+      > a {
+        > i {
+          font-size: 22px;
+          color: #d5530d;
+        }
+      }
+    }
+
+    > div:nth-of-type(1) {
+      position: absolute;
+      top: 15%;
+      right: 20%;
+    }
+
+    > div:nth-of-type(2) {
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
+      right: 20%;
+    }
+
+    > div:nth-of-type(3) {
+      position: absolute;
+      top: 70%;
+      right: 20%;
+    }
+  }
+
+  &:hover > div:nth-of-type(1) {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  > div:nth-of-type(2) {
+    width: 170px;
+    height: 170px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    > div {
+      width: 170px;
+      height: 170px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 3px solid #d5530d;
+
+      > img {
+        width: 100%;
+      }
+    }
+  }
+}
